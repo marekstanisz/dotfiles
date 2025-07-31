@@ -11,3 +11,5 @@ alias zaoraj="rake db:schema:load && rake db:seed"
 alias conflicts="git diff --name-only --diff-filter=U"
 alias cacy="g"
 alias be="bundle exec"
+
+source ~/.git-completion.bash
