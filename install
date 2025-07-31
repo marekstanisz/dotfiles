@@ -1,5 +1,4 @@
-if [ $CODESPACES ]
-then
+if [ $CODESPACES ]; then
   # Git autocomplete
   curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash -o ~/.git-completion.bash
 
@@ -8,5 +7,4 @@ then
   echo "if [ -e $HOME/.alias ]; then" >> ~/.bashrc
   echo "    source $HOME/.alias" >> ~/.bashrc
   echo "fi" >> ~/.bashrc
-else
 fi
